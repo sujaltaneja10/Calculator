@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+  }
+  
+  .empty {
+    border: 2px solid black;
+    height: 50px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: lightgrey;
+  }
+  
+  .suka {
+    border: 2px solid black;
+    flex-basis: 50px;
+    height: 50px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plus, .minus, .multiply, .divide {
+    background-color: orange;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero {
+    background-color: grey;
+  }
+  
+  .c {
+    background-color: red;
+  }
+  
+  .equal {
+    background-color: green;
+  }
